@@ -14,3 +14,6 @@ routes
 http://localhost:9292/movies - get movies
 http://localhost:9292/movies/1 - get one movie
 http://localhost:9292/reviews - get reviews
+http://localhost:9292/movies/${selectedMovie.id}/reviews - post review
+http://localhost:9292/reviews/${reviewId} -delete review
+
